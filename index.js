@@ -64,6 +64,7 @@ var server = http.createServer((req, res) => {
 		var payloadString = JSON.stringify(payload);
 
 		//	Return response
+		res.setHeader('Content-Type', 'application/json'); //This formely tells browsers, etc, that we are sending responses back in JSON format
 		res.writeHead(statusCode);
 		res.end(payloadString);
 
