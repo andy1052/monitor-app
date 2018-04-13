@@ -12,6 +12,28 @@ const fs = require('fs');
 
 //Local Files
 const config = require('./config');
+// const _data = require('./lib/data');
+
+// Test File write
+// _data.create('test', 'newFile', {'foo': 'bar'}, function(err) {
+// 	console.log('this was the error', err);
+// });
+
+//	Read File Test
+// _data.read('test', 'newFile', function(err, data) {
+// 	console.log('this was the error', err);
+// 	console.log('this was the data', data);
+// });
+
+//	Update File Test
+// _data.update('test', 'newFile', {'red': 'blue'}, function(err) {
+// 	console.log('this was the error', err);
+// });
+
+//	Delete File Test
+// _data.delete('test', 'newFile', function(err) {
+// 	console.log('this was the error', err);
+// });
 
 
 
