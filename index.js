@@ -15,6 +15,11 @@ const config = require('./lib/config');
 const handlers = require('./lib/handlers');
 const helpers = require('./lib/helpers');
 
+//Sample of sending a twilio request
+helpers.sendTwilioSms('7802003429', "Hello", function(err) {
+	console.log(`This was the error: ${err}`);
+});
+
 // const _data = require('./lib/data');
 
 // Test File write
