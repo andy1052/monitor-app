@@ -16,7 +16,7 @@ const handlers = require('./lib/handlers');
 const helpers = require('./lib/helpers');
 
 //Sample of sending a twilio request
-helpers.sendTwilioSms('7802003429', "Hello", function(err) {
+helpers.sendTwilioSms("7802993429", "Hello", function(err) {
 	console.log(`This was the error: ${err}`);
 });
 
